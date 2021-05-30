@@ -24,7 +24,13 @@ int main(){
     case '/':
         cout<<"Division is: "<<n1/n2<<endl;
         break;
-    
+        
+    case '%':
+        cout<<"Percentage is: "<<n1%n2<<endl;
+        break;
+    case '^':
+        cout<<"Answer is: "<<n1/n2<<endl;
+        break;
     default:
         cout<<"Invalid operator";
         break;
